@@ -35,7 +35,7 @@ Feature Engineering: New featues include: Average return conditioned on group an
 Models Used: Employed RandomForestClassifier with small depth (to prevent overfitting) and a relatively large number of trees. To identify trends quickly, LGBM's version of RF has been used.
 Parameter Tuning and Validation: Conducted model evaluation using 4-Fold cross-validation.
 
-Accuracy: Achieved an accuracy of 0.516 (username: ilya), surpassing the benchmark score of 0.513, score of winner: 0.5287
+Accuracy: Achieved an accuracy of 0.516 (username: ilya), surpassing the benchmark score of 0.513
 
 ## Usage
 
