@@ -48,7 +48,7 @@ Accuracy: Achieved an accuracy of 0.516 (username: ilya), surpassing the benchma
 
 To run this solution:
 
-Clone this repository to your local machine.
-Create a virtual environment including all packages (run: conda env create -f environment.yml)
-Place the challenge data files in the appropriate directory (as specified in the notebook).
-Open the Jupyter Notebook and execute the cells sequentially.
+- Clone this repository to your local machine
+- Install dependencies: pip install -r requirements.txt
+- Place the challenge data files in the appropriate directory (as specified in the notebook)
+- Open the Jupyter Notebook and execute the cells sequentially
