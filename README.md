@@ -28,7 +28,15 @@ The challenge provides 418,595 observations for training and 198,429 for testing
 
 ## Analysis and Feature Engineering
 
-Feature Engineering: New featues include: Average return conditioned on group and sector; weekly moving average and volatility (stdev) of stock & volume; relative volume & return of stock compared to its sector; residual return momentum; ten day sector return & volume volatility; relative strength index per sector; advance-decline line conditioned on sector. Detailed explanaions can be found in the notebook.
+### Feature Engineering:
+New featues include: 
+- Average return conditioned on group and sector; weekly moving average and volatility (stdev) of stock & volume;
+- relative volume & return of stock compared to its sector;
+- residual return momentum; ten day sector return & volume volatility;
+- relative strength index per sector; advance-decline line conditioned on sector;
+- volume-confirmed return interaction (return × log volume);
+- cross-sectional sector reversal (stock's deviation from sector mean, negated to capture mean reversion).
+Detailed explanaions can be found in the notebook.
 
 ## Model Selection and Training
 
