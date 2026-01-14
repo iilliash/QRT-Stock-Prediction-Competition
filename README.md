@@ -1,5 +1,4 @@
-# QRT-Stock-Prediction-Competition
-Stock Return Prediction Challenge Solution
+# QRT Stock Return Prediction Challenge Solution
 
 ## Overview
 
